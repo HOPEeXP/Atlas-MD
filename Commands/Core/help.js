@@ -1,13 +1,13 @@
 module.exports = {
   name: "help",
-  alias: ["menu", "h", "helpm", "helpmenu"],
+  alias: ["menu", "h", "hope", "toman"],
   desc: "Gives all bot commands list",
-  react: "✨",
+  react: "🔮",
   category: "Core",
   start: async (Miku, m, {prefix,pushName,NSFWstatus}) => {
-   let textHelpMenu = `Konichiwa *${pushName}* Senpai,
+   let textHelpMenu = `Yo!! *${pushName}* Sama,
 
-I am *${botName}*, a bot developed by *Team Atlas*.
+I am *${botName}*, a bot developed by *𝙷𝚊𝚛𝚛𝚒𝚜𝚘𝚗 𝚆𝚎𝚕𝚕𝚜*.
 
 My prefix is: *${prefix}*
 
