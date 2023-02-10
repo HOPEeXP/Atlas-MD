@@ -8,7 +8,7 @@ module.exports = {
   desc: "To play a song from youtube",
   category: "Media",
   usage: `play <song name>`,
-  react: "🍁",
+  react: "🎶",
   start: async (Miku, m, { text, prefix, args }) => {
     if (!args[0])
       return Miku.sendMessage(
@@ -22,7 +22,7 @@ module.exports = {
     let buttons = [
       {
         buttonId: `${prefix}ytad ${song.url}`,
-        buttonText: { displayText: "♫ Audio" },
+        buttonText: { displayText: "🎶 Audio" },
         type: 1,
       },
       {
