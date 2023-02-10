@@ -1,10 +1,10 @@
 module.exports = {
     name: "admins",
-    alias: ["tagadmins" ,"admin"],
+    alias: ["us" ,"admin"],
     desc: "Tag all group Admins.",
     category: "Group",
     usage: "admins <your message>",
-    react: "🍁",
+    react: "⁉️",
     start: async (
       Miku,
       m,
